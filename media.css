@@ -1,0 +1,31 @@
+@media screen and (max-width: 800px) {
+    #logo{
+        height:50%;
+        width:70%;
+        left:10%;
+        transform: translate(-10%);
+        z-index:10;
+    }
+
+    .back span{
+        font-size:35px;
+        
+    }
+    
+
+    
+    .back{
+        top:37%;
+        left:40%;
+        transform: translate(-30%);
+    }
+
+    li{
+        float:right;
+    }
+    
+    .right{
+        height:70vh;
+        width:100%;
+    }
+  }
