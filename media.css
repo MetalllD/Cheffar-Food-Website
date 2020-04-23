@@ -1,22 +1,24 @@
-@media screen and (max-width: 800px) {
-    #logo{
-        height:50%;
-        width:70%;
-        left:10%;
+@media (max-width: 575.98px) {
+    .title{
+        
+        left:35%;
         transform: translate(-10%);
         z-index:10;
     }
 
+    #logo{
+        height:auto;
+        width:70%;
+    }
+
     .back span{
         font-size:35px;
-        
     }
     
 
-    
     .back{
         top:37%;
-        left:40%;
+        left:39%;
         transform: translate(-30%);
     }
 
@@ -28,4 +30,177 @@
         height:70vh;
         width:100%;
     }
+
+    .fa{
+        top:60%;
+    }
+
+    .welcome-menu{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:45px;
+    color:rgb(255, 255, 255);
+    opacity:0.8;
+    font-weight: bold;
+    letter-spacing: -4px;
+    z-index:10;
+    margin-top:40px;
+    }
+
+    .head{
+        font-size: 50px;
+        color: rgb(216, 115, 56);
+        font-family: name;
+    }
+    
+
+    .image2{
+   
+        right:10%;
+        transform: translate(10%);
+    }
+    
+    .image1{
+        left:50%;
+        top:60%;
+    }
+    
+    .image3{
+        margin-top:50px;
+        left:50%;
+        transform: translatex(-20%);
+    }
+
+    #pizza{
+        height:auto;
+        width:100%;
+        margin-top:50px;
+    }
+    
+    #burger{
+        height:auto;
+        width:100%;
+    }
+    
+    #pasta{
+        height:auto;
+        width:120%;
+    }
+
+    .menu-pizza-right{
+        margin-top:15px;
+    }
+
+    .menu-pasta-left{
+        margin-top:60px;
+        margin-right:20px;
+    }
+
+    .menu-burger-right{
+        margin-top:50px;
+        margin-left:20px;
+    }
+    
+    #aboutus{
+        background-image: url('about.jpeg');
+        background-attachment: fixed;
+        background-size: cover;
+        height: 200vh;
+    }
+
+    .about{
+        font-size: 50px;
+        color: #fff;
+        font-family: name;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .dark-overlay{
+        background-color: rgba(0,0,0,0.7);
+        position: absolute;
+        width:100%;
+        min-height:200vh;
+    }
+
+    .card-head h5{
+        font-size: 40px;
+        overflow-y: hidden;
+    }
+
+    form{
+        padding:20px;
+        background-color: rgb(236, 104, 86);
+        color:#fff;
+        font-weight: bold;
+    }
   }
+
+
+
+
+  @media (min-width: 768px) and (max-width: 991.98px){
+
+    .title{
+        top:40%;
+        left:30%;
+        transform: translate(-10%);
+        z-index:10;
+    }
+
+    #logo{
+        height:auto;
+        width:85%;
+    }
+
+    .back span{
+        font-size:60px;
+    }
+    
+
+    .back{
+        top:52%;
+        left:40%;
+        transform: translate(-30%);
+    }
+
+    .welcome-menu{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:60px;
+        color:rgb(255, 255, 255);
+        opacity:0.8;
+        font-weight: bold;
+        letter-spacing: -4px;
+        z-index:10;
+        margin-top:30px;
+        }
+
+    .menu-pizza-right{
+        margin-top:25px;
+    }
+
+    .menu-pasta-left{
+        margin-top:60px;
+    }
+
+    .menu-burger-right{
+        margin-top:50px;
+    }
+
+    #aboutus{
+        background-image: url('about.jpeg');
+        background-attachment: fixed;
+        background-size: cover;
+        height: 130vh;
+    }
+
+    .dark-overlay{
+        background-color: rgba(0,0,0,0.7);
+        position: absolute;
+        width:100%;
+        min-height:230vh;
+    }
+
+  }
+

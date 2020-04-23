@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+       
     </head>
 
     <body>
@@ -30,13 +31,18 @@
                             <img src="back1 1.png">
                         </div>
                       </div>
-                    <div class="col-xl-6 col-md-6 col-sm-12 right">
+                    <div class="col-xl-6 col-md-12 col-sm-12 right">
                         <div class="showcase-right">
                                 <ul class="menu float-right">
-                                    <li>Menu</li>
-                                    <li>Gallery</li>
-                                    <li>About Us</li>
-                                    <li>Contact</li>
+                                    <li id="clickme1">
+                                        <a href="#menu">Menu</a>
+                                    </li>
+                                    <li id="clickme2">
+                                        <a href="#aboutus">About Us</a>
+                                    </li>
+                                    <li id="clickme3">
+                                        <a href="#contact">Contact</a>
+                                    </li>
                                 </ul>
                             
                         </div>
@@ -82,16 +88,21 @@
                 </div>
 
                 <div class="row three">
-                    <div class="col-6">
+                    <div class="col-xl-6 col-md-6 col-sm-12">
                          <div class="pizza image1">
                          <img id="pizza" src="pizza1.png"></img>
                          </div>
                     </div>
 
-                    <div class="col-sm-6 col-md-6">
+                    <div class="col-sm-12 col-md-6">
                         <div class="menu-pizza-right">
                             
-                            <p>Pizza</p>
+                            <p class="head">Pizza</p>
+                            <p class="def">[ A revelation, a manifestation of the most delicous combo in the world cheese, sauce and bread. What more could you need ?
+                            Pizza itself is a sentence !! ]</p>
+                            <div>
+                                <a href="pizza.html" type="button" class="btn-lg btn btn-outline-warning">Explore Pizza</a>
+                            </div>
                         </div>
                     </div>
                 </div> 
@@ -103,13 +114,17 @@
   
                   <div class="row four">
                       
-                      <div class="col-sm-6 col-md-6">
+                      <div class="col-sm-6 col-xl-6 col-md-6">
                           <div class="menu-pasta-left">
-                            <p>Pasta</p>
+                            <p class="head">Pasta</p>
+                            <p class="def">[ One of the most good, healthy, handy, inexpansive food ever. ]</p>
+                            <div>
+                                <a href="pasta.html" type="button" class="btn-lg btn btn-outline-warning">Explore Pasta</a>
+                            </div>
                           </div>
                       </div>
 
-                      <div class="col-6">
+                      <div class="col-md-6 col-xl-6 col-sm-6">
                         <div class="pasta image2">
                         <img id="pasta" src="pasta1.png"></img>
                         </div>
@@ -124,21 +139,99 @@
   
                   <div class="row five">
                       
-                     <div class="col-6">
+                     <div class="col-md-6 col-xl-6 col-sm-12">
                         <div class="burger image3">
                         <img id="burger" src="burger1.png"></img>
                         </div>
                    </div>
 
-                   <div class="col-sm-6 col-md-6">
+                   <div class="col-sm-12 col-md-6">
                     <div class="menu-burger-right">
-                      <p>Burger</p>
-                    </div>
+                      <p class="head">Burger</p>
+                    
+                    <p class="def">[ When life throws you a burger , eat it ]</p>
+                            <div>
+                                <a href="pasta.html" type="button" class="btn-lg btn btn-outline-warning">Explore Burger</a>
+                            </div>
+                        </div>
                 </div>
 
                   </div> 
               </div>         
               </section>
+
+              <section id="aboutus">
+              <div class="dark-overlay">
+                <p class="about">About Us</p>
+              <div class="card-deck all mx-auto">
+
+                <div class="col-xl-3 col-sm-12 card bg-dark text-center card-form p-4">
+                    <div class="card-body qualities">
+                        <img src=quality.png>
+                        <p class="card-text">
+                            <p class="add">Quality food</p>
+                            Quality food made from quality ingredients, sourced just for you!</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-sm-12 card bg-dark text-center card-form p-4">
+                    <div class="card-body qualities">
+                        <img src=service.png>
+                        <p class="card-text">
+                            <p class="add">Best service</p>
+                            We believe in providing you with the best possible service.</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-sm-12 card bg-dark text-center card-form p-4">
+                    <div class="card-body qualities">
+                        <img src=menu.png>
+                        <p class="card-text">
+                            <p class="add">Curated menu</p>
+                            A special curated menu to hit your taste-buds just right!</p>
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+            </section>
+
+            <section id="contact">
+                <div class="container-fluid form">
+                    <div class="col-xl-12">
+                        <h1 class="head con">Contact Us</h1>
+                        <div class="card card-form">
+                            <div class="card-body contactform">
+                                <div class="card-head">
+                                <h5> Question / Feedback </h5>
+                                <p>We would love to hear from you to provide you with even better service.</p>
+                                </div>
+                                <form>
+                                    <div class="form-group">
+                                        <label>Name</label>
+                                        <input type="text" class="form-control" placeholder="Enter your name">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Email</label>
+                                        <input type="text" class="form-control" placeholder="Enter your Email ID">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Message</label>
+                                        <input type="textbox" class="form-control" placeholder="Enter your message">
+                                    </div>
+
+                                    <input type="submit" value="Submit" class="btn btn-outline-light btn-block">
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
 
             
 
