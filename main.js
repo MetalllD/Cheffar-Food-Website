@@ -79,6 +79,27 @@ window.sr = ScrollReveal();
             viewFactor: 0.4
         })
 
+        sr.reveal('.qualities',{
+            duration:2000,
+            origin:'left',
+            distance:'300px',
+            viewFactor: 0.2
+        })
+
+        sr.reveal('.con',{
+            duration:2000,
+            origin:'bottom',
+            distance:'300px',
+            viewFactor: 0.2
+        })
+
+        sr.reveal('.thank',{
+            duration:2000,
+            origin:'left',
+            distance:'300px',
+            viewFactor: 0.2
+        })
+
         function smoothScroll(target,duration){
  
             let tar = document.querySelector(target);
