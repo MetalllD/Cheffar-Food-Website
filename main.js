@@ -1,9 +1,11 @@
+//animation of title
 const logo=document.querySelectorAll("#logo path")
 
 for(let i=0;i<logo.length;i++){
     console.log(`length of ${i} th path is ${logo[i].getTotalLength()}`)
 }
 
+//scroll reveal
 window.sr = ScrollReveal();
             sr.reveal('.menu',{
             duration:2000,
@@ -100,6 +102,7 @@ window.sr = ScrollReveal();
             viewFactor: 0.2
         })
 
+        //smooth scroll effect
         function smoothScroll(target,duration){
  
             let tar = document.querySelector(target);
@@ -151,7 +154,39 @@ window.sr = ScrollReveal();
         clickMe3.addEventListener('click',function(){
             smoothScroll('#contact',2000);
         })
-        
+
+        //form validation
+        let name=document.querySelector('#name');
+        let email=document.querySelector('#email');
+        let msg=document.querySelector('#message');
+        let form = document.querySelector('#form');
+
+        function alert(message1,className){
+            const div=document.createElement('div');
+            div.className=`alert alert-${className}`;
+            div.appendChild(document.createTextNode(message1));
+            const Upper = document.querySelector(".before")
+            const Lower = document.querySelector('#form');
+            Upper.insertBefore(div,Lower);
+            setTimeout(()=>{document.querySelector('.alert').remove()},2000)
+        }
+
+        form.addEventListener('submit',(e)=>
+        {
+            e.preventDefault();
+
+            if(name.value==='' || email.value==='' || msg.value===''){
+                alert('Please fill all the fields', 'danger')
+            }
+
+            else{
+                alert('Message sent','success')
+                name.value='';
+                email.value='';
+                message.value='';
+            }
+        }
+        );
         
         
 

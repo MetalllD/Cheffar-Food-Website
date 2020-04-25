@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+
+@font-face {
+    font-family: newFont;
+    src:url(Bebas-Regular.otf);
+}
+
+.navbar{
+    background-color: #0B0A20;
+    color:#fff;
+}
+
+.navbar-nav a{
+    color:#F07A6A;
+    margin-right:30px;
+    font-size: 20px;
+    font-family: newFont;
+}
+
+.navbar-nav a:hover{
+    color:#fff;
+}
+
+.navbar-nav i{
+    margin-left:10px;
+}
+
+.highlight{
+    background-image: linear-gradient(to top, #060c44 0%, #1a0533 100%);
+    border-radius: 6px;
+}
+
+.navbar-brand{
+    color:#fff;
+    font-size: 30px;
+}
+
+.navbar-brand:hover{
+    color:#F07A6A;
+}
+
+.navbar-toggler-icon{
+    background-color:#fff;
+}
