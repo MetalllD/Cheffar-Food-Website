@@ -5,9 +5,29 @@
     overflow-x:hidden;
 }
 
+body{
+    background-color:#0B0A20 ;
+}
+
+#pizza-menu{
+    background-color: #0B0A20;
+    background-attachment: fixed;
+}
+
+#pizza-menu2{
+    background-color: #0B0A20;
+    background-attachment: fixed;
+    padding-bottom: 30px;
+}
+
 @font-face {
     font-family: newFont;
     src:url(Bebas-Regular.otf);
+}
+
+@font-face {
+    font-family: name;
+    src:url(FrederickatheGreat-Regular.ttf);
 }
 
 .navbar{
@@ -47,3 +67,102 @@
 .navbar-toggler-icon{
     background-color:#fff;
 }
+
+
+.card-body{
+    background-color: rgb(5, 5, 48);
+    color:#fff;
+    border-radius: 5px;
+}
+
+#pizza1,#pizza2,#pizza3,#pizza5,#pizza6{
+    width:130%;
+    height:auto;
+    padding:0px;
+    margin-top:-70px;
+}
+
+#pizza4{
+    width:140%;
+    height:auto;
+    padding:0px;
+    margin-top:-70px;
+}
+
+.card{
+   background-color:rgb(5, 5, 48) ;
+  
+}
+
+.container{
+    margin-left:100px;
+}
+
+.all{
+    justify-content: center;
+     margin-top:40px;
+    
+ }
+
+ .head{
+    font-size: 80px;
+    color: #fff;
+    font-family: name;
+    text-align: center;
+}
+
+.add{
+    font-size: 40px;
+    font-family: newFont;
+    color:#F07A6A;
+}
+
+input{
+    width:40px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.input{
+    font-family:newFont;
+    margin-bottom:7px;
+    color:#F07A6A
+}
+
+.input button{
+    background-color:#F07A6A ;
+    color:white;
+    margin-top:30px;
+    width: 200px;
+}
+
+footer{
+      
+    background-color: rgb(6, 6, 49);
+    color: #fff;
+    padding:40px;
+    text-align:center;
+}
+
+.size{
+    font-family: newFont;
+    color:#fff;
+    display: flex;
+    justify-content: space-around;
+    padding:30px;
+    font-size: 25px;
+}
+
+.size div{
+    background-color: #060c44;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0);
+}
+
+.size div:hover{
+    color:#F07A6A;
+    cursor: pointer;
+}  
+
+ 

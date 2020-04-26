@@ -3,4 +3,8 @@
     .highlight{
         background-image: none;
     }
+
+    .head{
+        font-size: 40px;
+    }
 }

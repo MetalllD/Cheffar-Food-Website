@@ -40,7 +40,7 @@ body{
 }
 
 ul{
-    display: block;
+   
     font-family:newFont;
    
 }
@@ -53,6 +53,7 @@ li{
     font-family:newFont;
     font-size: 20px;
     transition: all 0.5s;
+    float:right;
 }
 
 li a{
@@ -66,6 +67,10 @@ li a:hover{
     cursor: pointer;
     text-decoration: none;
     color: #F07A6A;
+}
+
+#clickme4{
+    margin-top:13px;
 }
 
 
