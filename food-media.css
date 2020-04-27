@@ -1,0 +1,10 @@
+@media (max-width: 575.98px) {
+
+    .highlight{
+        background-image: none;
+    }
+
+    .head{
+        font-size: 40px;
+    }
+}
