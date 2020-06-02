@@ -257,7 +257,7 @@ li a:hover{
 }
 
 #aboutus{
-    background-image: url('about.jpeg');
+    background-image: url('./Images/about.jpeg');
     background-attachment: fixed;
     background-size: cover;
     height: 110vh;
